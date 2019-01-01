@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9F4F270E21DB0B1E009DED40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4F270D21DB0B1E009DED40 /* main.m */; };
+		9F4F271621DB0B3D009DED40 /* ConditionalAdder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4F271521DB0B3D009DED40 /* ConditionalAdder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		9F4F270A21DB0B1E009DED40 /* Kata2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Kata2; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F4F270D21DB0B1E009DED40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F4F271421DB0B3D009DED40 /* ConditionalAdder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConditionalAdder.h; sourceTree = "<group>"; };
+		9F4F271521DB0B3D009DED40 /* ConditionalAdder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConditionalAdder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				9F4F270D21DB0B1E009DED40 /* main.m */,
+				9F4F271421DB0B3D009DED40 /* ConditionalAdder.h */,
+				9F4F271521DB0B3D009DED40 /* ConditionalAdder.m */,
 			);
 			path = Kata2;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F4F270E21DB0B1E009DED40 /* main.m in Sources */,
+				9F4F271621DB0B3D009DED40 /* ConditionalAdder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
